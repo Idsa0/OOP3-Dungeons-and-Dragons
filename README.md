@@ -2,13 +2,15 @@
 
 ## Overview
 
-This project was given to us as a first year assignment in the course Principles of Object-Oriented Programming.
+This project was given to us as a first year assignment in the course Principles of Object-Oriented Programming, written by [Idan Saltzman](https://github.com/idsa0) and [May Hadadi](https://github.com/mayhadadi).
+
 This project is a single-player, multi-level version of a Dungeons and Dragons board game. The player is trapped in a dungeon filled with enemies and must fight through them to progress to the next level. The game adheres to Object-Oriented Programming principles and coding conventions.
 
 ## How to Use
 
 The program takes a directory path as a command-line argument. The directory must contain files named `level<i>.txt`, where `<i>` is the level number.
-`java -jar hw3.jar <Path to directory of files>`
+
+Usage: `java -jar hw3.jar <Path to directory of files>`
 
 ## Game Description
 
@@ -32,7 +34,7 @@ The game is played through a Command-Line Interface (CLI), and each level of the
 
 ## Player Classes
 
-There are three types of player characters, each with unique abilities:
+There are four types of player characters, each with a unique ability:
 
 ### Warrior
 - **Special Ability**: Avenger’s Shield - Hits a random enemy within range and heals the warrior.
